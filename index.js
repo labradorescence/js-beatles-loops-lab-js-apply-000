@@ -41,7 +41,7 @@ let num = 0
 const iLoveTheBeatles = (num) => {
   do{
       storedArr.push(`I love the Beatles!`)
-        return storedArr
+        return storedArr++
   }
   while(num < 15)
 }
