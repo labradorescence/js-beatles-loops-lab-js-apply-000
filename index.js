@@ -38,7 +38,7 @@ const johnLennonFacts = (johnFactArr) => {
 
 const iLoveTheBeatles = (num) => {
   let storedArr = [];
-
+let num = 1
   while(num < 15){
     storedArr.push(`I love the Beatles!`)
   }
