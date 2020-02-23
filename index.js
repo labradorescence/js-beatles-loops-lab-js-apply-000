@@ -36,11 +36,12 @@ const johnLennonFacts = (johnFactArr) => {
   return exclamationStr
 }
 
+let storedArr = [];
+let num = 0
 const iLoveTheBeatles = (num) => {
-  let storedArr = [];
-let num = 1
-  while(num < 15){
-    storedArr.push(`I love the Beatles!`)
+  do{
+      storedArr.push(`I love the Beatles!`)
+        return storedArr
   }
-  return storedArr
+  while(num < 15)
 }
